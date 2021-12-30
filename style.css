@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Code';
+}
+
+.container {
+    background-color: #eee;
+    border: 2px solid blue;
+    width: 700px;
+    margin: 70px 0 0 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 150px 100px 100px;
+    /* grid-gap: 20px; */
+    /* grid-row-gap: 15px;
+    grid-column-gap: 10px; */
+    grid-gap: 20px 10px;
+
+
+
+}
+
+.items1 {
+    background-color: orangered;
+    /* grid-row-start: 2;
+    grid-row-end: 3; */
+    /* Short */
+    /* grid-row: 2/3; */
+
+    /* grid-column-start: 3;
+    grid-column-end: 4; */
+    /* Short */
+    /* grid-column: 3/4; */
+
+    /* Everything in short form */
+    /* grid-area: 2/3/3/4; */
+
+
+}
+
+.items2 {
+    background-color: yellowgreen;
+}
+
+.items3 {
+    background-color: slateblue;
+    grid-column: 2/4;
+
+}
+
+.items4 {
+    background-color: hotpink;
+    /* grid-column: 2/4; */
+}
+
+.items5 {
+    background-color: royalblue;
+}
+
+.items6 {
+    background-color: brown;
+    /* grid-row-start: 1;
+    grid-row-end: 2; */
+    grid-row: 1/2;
+
+    /* grid-column-start: 1;
+    grid-column-end: 2; */
+    grid-column: 1/3;
+}
